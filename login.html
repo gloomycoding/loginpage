@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="OKAY.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="login">
+    <!-- Your login form goes here -->
+    <form action="/submit-login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <div id="sub" >
+
+          <input type="submit" value="Login">
+        </div>
+    </form> 
+</div>
+<script src="script.js"></script>
+</body>
+</html>

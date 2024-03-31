@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .login {
+    position: absolute; /* Position it at the center */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensures that the login form is above the video */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds a slight white background to increase readability */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Add some styling to form elements here if needed */
+  
